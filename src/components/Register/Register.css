@@ -1,0 +1,16 @@
+.register-field-design {
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    padding: 15px;
+    width: 25%;
+    border-bottom: 1px solid blueviolet;
+    
+    
+  }
+  .register-design{
+      margin-bottom: 100px;
+  }
+  .overall-form{
+      padding-top: 120px;
+  }

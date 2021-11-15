@@ -1,0 +1,11 @@
+.nav-bar {
+    list-style: none;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-image{
+      height: 50px;
+      width: 100px;
+  }

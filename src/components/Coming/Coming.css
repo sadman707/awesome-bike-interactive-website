@@ -1,0 +1,23 @@
+.coming-image{
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.row-style-coming{
+    padding: 20px;
+    background-color: rgb(221, 198, 198);
+}
+
+.inner-style-coming{
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 20px;
+}
+.coming-heading{
+    color: rgb(40, 100, 75);
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+}
