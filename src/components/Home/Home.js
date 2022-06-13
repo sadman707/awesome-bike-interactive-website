@@ -9,7 +9,7 @@ import './Home.css'
 const Home = () => {
     const [review, setReview] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/getReview")
+        fetch("https://shrouded-hamlet-54967.herokuapp.com/getReview")
             .then((res) => res.json())
             .then((data) => {
                 console.log(data)
@@ -35,10 +35,10 @@ const Home = () => {
                             <div className="row container mt-1">
 
                                 <div className="col-md-6 col-lg-6 ">
-                                    <h6>{reviews.email}</h6>
+                                    <h5>{reviews.email}</h5>
                                 </div>
                                 <div className="col-md-6 col-lg-6">
-                                    <h6>{reviews.comments}</h6>
+                                    <h5>{reviews.comments}</h5>
                                 </div>
 
 

@@ -11,7 +11,7 @@ const MangeOrder = () => {
 
     console.log(status);
     useEffect(() => {
-        fetch("http://localhost:5000/allOrders")
+        fetch("https://shrouded-hamlet-54967.herokuapp.com/allOrders")
             .then((res) => res.json())
             .then((data) => setOrders(data));
     }, []);
@@ -24,7 +24,7 @@ const MangeOrder = () => {
 
     const onSubmit = (data) => {
         console.log(data, orderId);
-        fetch(`http://localhost:5000/statusUorderate/${orderId}`, {
+        fetch(`https://shrouded-hamlet-54967.herokuapp.com/statusUorderate/${orderId}`, {
             method: "PUT",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

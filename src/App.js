@@ -23,6 +23,7 @@ import MangeOrder from './components/ManageOrder/ManageOrder';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/Contact/Contact';
 import Coming from './components/Coming/Coming';
+import MyAllServices from './components/Myallservices/MyAllServices';
 
 
 function App() {
@@ -54,6 +55,9 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
+            <Route path="/allservices">
+              <MyAllServices></MyAllServices>
+            </Route>
             <PrivateRoute path="/about">
               <About></About>
             </PrivateRoute>
@@ -63,9 +67,9 @@ function App() {
             <Route path="/review">
               <Review></Review>
             </Route>
-            <PrivateRoute path="/contact">
+            <Route path="/contact">
               <Contact></Contact>
-            </PrivateRoute >
+            </Route >
             <PrivateRoute path="/coming">
               <Coming></Coming>
             </PrivateRoute >

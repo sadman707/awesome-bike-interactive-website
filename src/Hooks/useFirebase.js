@@ -29,7 +29,7 @@ const useFirebase = () => {
 
 
     const handleUserInformationRegister = (email) => {
-        fetch("http://localhost:5000/addUserInfo", {
+        fetch("https://shrouded-hamlet-54967.herokuapp.com/addUserInfo", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({ email }),

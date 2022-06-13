@@ -21,6 +21,7 @@ const Navbar = () => {
 
                             <NavLink className="btn btn-outline-success" to="/coming" >Coming Soon</NavLink>
                             <NavLink className="btn btn-outline-success" to="/contact" >Contact Us</NavLink>
+                            <NavLink className="btn btn-outline-success" to="/allservices" >My all Services</NavLink>
 
                         </nav>
                     </div>

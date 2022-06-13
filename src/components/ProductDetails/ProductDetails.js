@@ -16,7 +16,7 @@ const ProductDetails = (data) => {
 
     /*  const onSubmit = (data) => {
          // data.email = "sadman sakib"
-         fetch("http://localhost:5000/addServices", {
+         fetch("https://shrouded-hamlet-54967.herokuapp.com/addServices", {
              method: "POST",
              headers: { "content-type": "application/json" },
              body: JSON.stringify(data),
@@ -35,7 +35,7 @@ const ProductDetails = (data) => {
             image: service?.image
         }
         data.email = user?.email;
-        fetch("http://localhost:5000/addOrders", {
+        fetch("https://shrouded-hamlet-54967.herokuapp.com/addOrders", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
@@ -47,7 +47,7 @@ const ProductDetails = (data) => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/singleService/${serviceId}`)
+        fetch(`https://shrouded-hamlet-54967.herokuapp.com/singleService/${serviceId}`)
             .then((res) => res.json())
             .then((data) => setService(data));
     }, []);

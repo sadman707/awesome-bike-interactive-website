@@ -14,7 +14,7 @@ const Dashboard = () => {
     const [admin, setAdmin] = useState(false);
     const { user } = useFirebase();
     useEffect(() => {
-        fetch(`http://localhost:5000/adminCheck/${user?.email}`)
+        fetch(`https://shrouded-hamlet-54967.herokuapp.com/adminCheck/${user?.email}`)
             .then((res) => res.json())
             .then((data) => {
                 if (data[0]?.role === "admin") {
