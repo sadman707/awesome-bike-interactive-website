@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import useFirebase from "./../../Hooks/useFirebase";
+import logo from "../../Asset/mylogo.png"
 
 const Navbar = () => {
     const { user, handleLogout } = useFirebase()
@@ -10,7 +11,9 @@ const Navbar = () => {
             <div>
                 <div className="menubar-container row">
                     <div className="col-md-1 col-lg-1" >
-                        <img className="nav-image" src="https://i.ibb.co/NYG2tPV/default.png" alt="" />
+                        {/* <img className="nav-image" src="https://i.ibb.co/NYG2tPV/default.png" alt="" /> */}
+                        <img className="nav-image" src={logo} alt="" />
+
                     </div>
 
                     <div className="col-md-7 col-lg-7 col-sm-12">

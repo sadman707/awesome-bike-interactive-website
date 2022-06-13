@@ -1,10 +1,14 @@
 .row-style{
-    border: 1px solid black;
+    border: none;
     border-radius: 20px;
-    padding: 50px;
-    background-color: rgb(178, 218, 199);
-}
-.contact-image{
-    height: 300px;
+    padding: 20px;
+    background-color: rgb(233, 241, 232);
     width: 500px;
+    height: min-content;
+    
+}
+
+.imageThumbnail{
+    height: 250px;
+    width: 250px;
 }
