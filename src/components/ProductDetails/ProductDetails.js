@@ -76,7 +76,7 @@ const ProductDetails = (data) => {
                             <h4>Product Name: ${service?.name}</h4>
                         </div>
                         <div>
-                            <h6>description: ${service?.description}</h6>
+                            <p className='fontSize'>description: ${service?.description}</p>
                         </div>
                         <div>
                             <h4>price: ${service?.price}</h4>
